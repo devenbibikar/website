@@ -1,5 +1,5 @@
 let myHeading = document.querySelector("h1");
-myHeading.textContent = "Hello world!";
+myHeading.textContent = "this webpage is currently under construction. stay tuned.";
 
 document.querySelector("h1").addEventListener("click", function () {
     alert("this page has been attacked by viruses.")
