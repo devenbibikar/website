@@ -7,29 +7,55 @@ p {
 html {
     font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
     font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
-    background-color: #00539f;
+    background-color: #436795;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 h1 {
-    font-size: 60px;
+    font-weight: 800;
+    font-family: Georgia;
+    color: white;
     text-align: center;
-    margin: 0;
-    padding: 20px 0;
-    color: #0b78df;
-    text-shadow: 3px 5px 5px black;
+    padding: 20px;
+    font-size: 150px;
 }
 
-p,
-li {
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
-  }
+.navitems > li {
+    align-items: center;
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: whitesmoke;
+}
 
-body {
-    width: 1200px;
-    margin: 0 auto;
-    background-color: #ff9500;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
-  }
+.navitem {
+    font-size: xx-large;
+}
+
+.nav-menu {
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    padding-top: 0;
+}
+
+.nav-wrapper {
+    text-align: center;
+    width: 100%;
+    height: 200%;
+    margin: 0px auto;
+    clear: both;
+    background: #284263;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}

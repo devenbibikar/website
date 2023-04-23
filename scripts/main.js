@@ -1,4 +1,4 @@
-let myHeading = document.querySelector("h1");
+/*let myHeading = document.querySelector("h1");
 myHeading.textContent = "this webpage is currently under construction. stay tuned.";
 
 document.querySelector("h1").addEventListener("click", function () {
@@ -28,3 +28,41 @@ function setUserName() {
 myButton.onclick = () => {
     setUserName();
 };
+*/
+
+//NEW SECTION BEGINS
+
+let myNavigationItem = document.querySelectorAll(".navitem");
+myNavigationItem.forEach((item) => {
+  item.addEventListener("mouseover", () => {
+    hoveredText(item);
+  });
+  item.addEventListener("mouseout", () => {
+    normalText(item);
+  });
+  item.addEventListener("click", function () {
+    hoveredText(item);
+  });
+});
+
+let hover = false;
+  
+function hoveredText(item) {
+  item.style.background = "#85aad8";
+}
+
+function normalText(item) {
+  item.style.background = "#284263";
+}
+
+function attackPage() {
+  alert("this page is under attack!");
+}
+
+//https://www.color-hex.com/color-palette/1024702
+
+
+
+
+
+
