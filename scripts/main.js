@@ -48,11 +48,11 @@ myNavigationItem.forEach((item) => {
 let hover = false;
   
 function hoveredText(item) {
-  item.style.background = "#85aad8";
+  item.style.background = "#36393e";
 }
 
 function normalText(item) {
-  item.style.background = "#284263";
+  item.style.background = "#282b30";
 }
 
 function attackPage() {

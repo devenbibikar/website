@@ -1,13 +1,7 @@
-p {
-    color: red;
-    width: 500px;
-    border: 1px solid black;
-}
-
 html {
     font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
     font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
-    background-color: #436795;
+    background-color: #36393e;
     margin-top: 0;
     margin: 0;
     padding: 0;
@@ -20,48 +14,108 @@ html {
     border: 0;
 }
 
-h1 {
-    font-weight: 800;
-    font-family: Georgia;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 150px;
+
+.mainh1 {
+    background-color:#1e2124;
 }
 
-.navitems > .navitem {
-    align-items: center;
+.navitems > .navitem, .navEmpty {
     display: inline;
     padding-left: 30px;
     padding-right: 30px;
-    color: whitesmoke;
+    color: rgb(214, 214, 214);
+    min-width: fit-content;
 }
 
 .navitem {
-    font-size: xx-large;
+    font-size: 48px;
+}
+
+.navEmpty {
+    font-size: 48px;
+}
+
+.navitem span {
+    font-size: xx-large
 }
 
 .leftName {
     font-size: x-large;
     color: whitesmoke;
-    padding-right: 100px;
-}
-
-.nav-menu {
-    width: 100%;
-    align-items: center;
-    margin: 0;
-    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 50px;
+    display: inline;
 }
 
 .nav-wrapper {
-    text-align: center;
+    text-align: left;
     width: 100%;
-    height: 200%;
+    min-width: fit-content;
     margin: 0px auto;
     clear: both;
-    background: #284263;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background: #282b30;
+    padding-top: 0;
+    height: 65px;
+    overflow: hidden;
+    box-shadow: 0 2px #1e2124;
+}
 
+.main-content {
+    background-color: #1e2124;
+    width: 95%;
+    height: 100vh;
+    margin: auto; 
+    margin-top: 20px;
+    align-self: center;
+    text-align: center;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+h1 {
+    font-weight: 800;
+    font-family: Georgia;
+    color: white;
+    padding: 20px;
+}
+
+.main-content .centerTable {
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 100vh;
+}
+
+.main-content .centerTable th {
+    padding: 20px;
+}
+
+.main-content .centerTable tr {
+    background-color: 	white;
+}
+
+.main-content .mainTitle {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: auto;
+    min-width: 97%;
+    background: #282b30;
+    font-size: xx-large;
+}
+
+.main-content p {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height:10px;
+    font-size: large;
+    text-align: left !important;
+    margin-left: 50px;
+
+}
+
+.space {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:10px;
 }
